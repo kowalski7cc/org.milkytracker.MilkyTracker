@@ -1,0 +1,23 @@
+From 2687debf2098654f7e1f9495df1080e8fd63f870 Mon Sep 17 00:00:00 2001
+From: "Kowalski Dragon (kowalski7cc)" <kowalski7cc@users.noreply.github.com>
+Date: Fri, 8 Dec 2023 23:32:55 +0100
+Subject: [PATCH] Add MimeType to Linux Desktop file
+
+Signed-off-by: Kowalski Dragon (kowalski7cc) <kowalski7cc@users.noreply.github.com>
+---
+ resources/milkytracker.desktop | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/resources/milkytracker.desktop b/resources/milkytracker.desktop
+index f840991..1925aac 100644
+--- a/resources/milkytracker.desktop
++++ b/resources/milkytracker.desktop
+@@ -8,4 +8,5 @@ Exec=milkytracker %f
+ Icon=milkytracker
+ Terminal=false
+ StartupNotify=false
++MimeType=audio/x-mod;audio/x-xm;
+ Categories=AudioVideo;Audio;AudioVideoEditing;Sequencer;
+-- 
+2.43.0
+
